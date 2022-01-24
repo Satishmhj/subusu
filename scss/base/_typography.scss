@@ -1,0 +1,13 @@
+p{
+  @include rfs(13.33px);
+  line-height: 1.5;
+  font-weight: 400;
+}
+.heading{
+  @include rfs(24px);
+  font-weight: 700;
+}
+
+.subtitle{
+  max-width: 25rem;
+}
